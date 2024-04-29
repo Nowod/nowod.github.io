@@ -43,7 +43,7 @@ index_generator:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: jekyll-theme-minimal
+remote-theme: https://github.com/andreondra/jekyll-theme-simplex
 markdown: kramdown
 
 # Category & Tag
