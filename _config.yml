@@ -1,4 +1,4 @@
-# Site
+#Site settings
 title: Nowod's blog
 subtitle: ''
 description: This is a Blog!!!
@@ -44,11 +44,12 @@ index_generator:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+markdown: kramdown
 
 # Category & Tag
-default_category: uncategorized 【默认分类：未分类】
+default_category: uncategorized
 category_map:
-tag_map: 【分类/标签地图，必要性不大】
+tag_map: 
 
 # Metadata elements
 meta_generator: true
