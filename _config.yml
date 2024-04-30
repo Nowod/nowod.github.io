@@ -87,5 +87,5 @@ theme: tranquility
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://nowod.github.io
+  repo: https://github.com/Nowod/nowod.github.io
   branch: master
