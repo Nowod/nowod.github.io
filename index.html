@@ -137,7 +137,7 @@
                 <a class="nav-menu-item" href="/life">Life</a>
               
             
-            <a class="nav-menu-item" href='/cv/'>简历</a>
+            
           </div>
         </div>
         <label class="nav-btn" for="navBtn"></label>
@@ -222,24 +222,17 @@
         <div class="radio-wrapper">
           
             <div class="radio">
-              <input id="radio-article"
+              <input id="radio-develop"
                      type="checkbox"
                      />
-              <label class="radio-skin--article" for="radio-article"></label>
+              <label class="radio-skin--develop" for="radio-develop"></label>
             </div>
           
             <div class="radio">
-              <input id="radio-app"
+              <input id="radio-life"
                      type="checkbox"
                      checked/>
-              <label class="radio-skin--app" for="radio-app"></label>
-            </div>
-          
-            <div class="radio">
-              <input id="radio-event"
-                     type="checkbox"
-                     />
-              <label class="radio-skin--event" for="radio-event"></label>
+              <label class="radio-skin--life" for="radio-life"></label>
             </div>
           
         </div>
@@ -476,7 +469,7 @@
   
   
   <script type="text/javascript">
-    const timelineData = {"types":["article","app","event"],"posts":[]}
+    const timelineData = {"types":["develop","life"],"posts":[]}
     const {types, posts} = timelineData
     listEl = document.querySelector("#timeline-list");
 
