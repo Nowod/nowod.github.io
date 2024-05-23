@@ -13,16 +13,16 @@ favicon: # 配置网页图标
 subpage: # 开启“子页”功能，详见 README
   enable: true
   pages:
-    - name: featTest # 文章的分类（category）名，如 developer
-      path: feat # 若不设置则默认使用 name
-      title: 特性测试 # 菜单名，如 开发者
+    - name: develop # 文章的分类（category）名，如 developer
+      path: develop # 若不设置则默认使用 name
+      title: Develop # 菜单名，如 开发者
       icon: /images/icon/icon-code.svg # 图标的路径
-      description: 主题的功能测试 # 描述
-    - name: baseTest # 文章的分类（category）名，如 developer
-      path: base # 若不设置则默认使用 name
-      title: 基础测试 # 菜单名，如 开发者
+      description: software development # 描述
+    - name: life # 文章的分类（category）名，如 developer
+      path: life # 若不设置则默认使用 name
+      title: Life # 菜单名，如 开发者
       icon: /images/icon/icon-pi.svg # 图标的路径
-      description: 基于 hexo 官方的基础测试 # 描述
+      description: daily life # 描述
 
 index: # 配置首页个性化内容
   motto: "长风破浪会有时！"
@@ -33,11 +33,11 @@ index: # 配置首页个性化内容
   about:
     title: 关于
     text:
-      - 酒入豪肠,七分酿成了月光
+      - 欲买桂花同载酒
       -
-      - 余下的三分啸成剑气
+      - 终不似
       -
-      - 绣口一吐就半个盛唐
+      - 少年游
 
 foot:
   title:
