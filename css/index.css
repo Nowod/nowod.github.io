@@ -172,7 +172,7 @@
   margin: auto;
 }
 .radio-skin,
-.radio-skin--develop,
+.radio-skin--dev,
 .radio-skin--life {
   height: 100%;
   width: 2px;
@@ -181,7 +181,7 @@
   transition: all 0.4s ease;
 }
 .radio-skin::after,
-.radio-skin--develop::after,
+.radio-skin--dev::after,
 .radio-skin--life::after {
   transition: all 0.4s ease;
   display: block;
@@ -197,22 +197,22 @@
   top: 22px;
   box-shadow: 1px 0 5px rgba(0,0,0,0.2);
 }
-.radio-skin--develop::after {
+.radio-skin--dev::after {
   border-color: #ee936c;
 }
-#radio-develop:checked+.radio-skin--develop {
+#radio-dev:checked+.radio-skin--dev {
   background-color: #ee936c;
 }
-#radio-develop:checked+.radio-skin--develop::after {
+#radio-dev:checked+.radio-skin--dev::after {
   background-color: #ee936c;
   top: -2px;
 }
-.timeline-item-develop .line-anchor::after,
-.timeline-item-develop--hidden .line-anchor::after {
+.timeline-item-dev .line-anchor::after,
+.timeline-item-dev--hidden .line-anchor::after {
   background-color: #ee936c;
 }
-.timeline-item-develop .line-date-tag,
-.timeline-item-develop--hidden .line-date-tag {
+.timeline-item-dev .line-date-tag,
+.timeline-item-dev--hidden .line-date-tag {
   background-color: #ee936c;
 }
 /*
